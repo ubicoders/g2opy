@@ -40,8 +40,6 @@ pip install numpy
 Bundle Adjustmend Example
 
 ```python
-# https://github.com/RainerKuemmerle/g2o/blob/master/g2o/examples/sba/sba_demo.cpp
-
 import numpy as np
 import g2opy as g2o
 np.set_printoptions(precision=3)
