@@ -1,5 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/ubuntu-18.04%7C20.04%7C22.04-brightgreen)
-![Static Badge](https://img.shields.io/badge/python-3.9|3.10-informational)
+![Static Badge](https://img.shields.io/badge/python-3.9|3.10-007fff)
 ![Static Badge](https://img.shields.io/badge/license-mit-fuchsia)
 
 
