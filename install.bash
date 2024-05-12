@@ -37,3 +37,7 @@ cp ./lib/g2o.* ./pymodule_installer/g2opy/
 
 cd ./pymodule_installer/
 pip install .
+
+cd ..
+echo "Running tester.py"
+python tester.py
