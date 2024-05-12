@@ -7,6 +7,15 @@
 
 g2o with pybind is quite OS and Python version specific. Best method to have pip on your system is to build on.
 
+## Intellisense Enhanced
+
+
+![sample1](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel0.png)
+
+
+![sample2](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel1.png)
+
+
 ## Assumptions
 1. Ubuntu Linux
 2. In Docker environment
@@ -29,13 +38,6 @@ This g2opy module is built based on
 1. https://github.com/uoip/g2opy
 2. https://github.com/RainerKuemmerle/g2o
 
-## Intellisense Enhanced
-
-
-![sample1](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel0.png)
-
-
-![sample2](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel1.png)
 
 
 ## License
