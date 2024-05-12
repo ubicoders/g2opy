@@ -16,7 +16,12 @@ This g2opy module is built based on
 
 ## Intellisense Enhanced
 
-![sample](https://raw.githubusercontent.com/ubicoders0/g2opy/main/pics/intel0.png)
+
+![sample1](https://raw.githubusercontent.com/ubicoders0/g2opy/main/pics/intel0.png)
+
+
+![sample2](https://raw.githubusercontent.com/ubicoders0/g2opy/main/pics/intel1.png)
+
 
 ## License
 MIT license. Currently, additional work is the build configuration on top of uoip/g2opy.
