@@ -5,7 +5,7 @@
 
 # g2o Graph Optimization Lib for Ubuntu Linux
 
-g2o with pybind is quite OS and Python version specific. Best method to have pip on your system is to build on.
+g2o with pybind is quite OS and Python version specific. For now, directly building on the system seems a straight forward way.
 
 ## Intellisense Enhanced
 
