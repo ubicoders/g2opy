@@ -276,8 +276,14 @@ SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${g2o_C_FLAGS}")
 # Find Eigen3
 FIND_PACKAGE(Eigen3 REQUIRED)
 
-# Set up the top-level include directories
-INCLUDE_DIRECTORIES(${g2o_SOURCE_DIR} ${EIGEN3_INCLUDE_DIR})
+#====================================================================================================================
+## CUSTOM PTYHON PATHS 
+# Set a variable for the custom path
+set(PYBIND_INCLUDE_DIR /miniconda/lib/python3.9/site-packages/pybind11/include)
+set(PYTHON_INCLUDE_DIR /miniconda/include/python3.9)
+INCLUDE_DIRECTORIES(${g2o_SOURCE_DIR} ${EIGEN3_INCLUDE_DIR} ${PYBIND_INCLUDE_DIR} ${PYTHON_INCLUDE_DIR})
+#====================================================================================================================
+
 
 # Generate config.h
 SET(G2O_OPENGL_FOUND ${OPENGL_FOUND})
