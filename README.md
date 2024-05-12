@@ -21,6 +21,8 @@ g2o with pybind is quite OS and Python version specific. Best method to have pip
 bash install.bash
 ```
 
+Ideally, the above command should do all installation end-to-end. After this, g2opy package should exist in pip list.
+
 
 This g2opy module is built based on
 1. https://github.com/uoip/g2opy
