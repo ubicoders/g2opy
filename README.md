@@ -11,8 +11,8 @@ g2o with pybind is quite OS and Python version specific. Best method to have pip
 2. In Docker environment
 
 ## Tested
-Ubuntu 18.04, 20.04, 22.04
-Python 3.9, 3.10
+- Ubuntu 18.04, 20.04, 22.04
+- Python 3.9, 3.10
 
 ## To install as pip package
 
