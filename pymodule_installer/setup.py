@@ -8,7 +8,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name='g2opy',
-    version='0.0.6',
+    version='0.0.7',
     package_dir={'g2opy': 'g2opy'},
     packages=find_packages(),
     include_package_data=True,
