@@ -8,7 +8,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name='g2opy',
-    version='0.0.5',
+    version='0.0.6',
     package_dir={'g2opy': 'g2opy'},
     packages=find_packages(),
     include_package_data=True,
@@ -16,6 +16,7 @@ setup(
     author='ubicoders',
     keywords='g2o, SLAM, BA, ICP, optimization, python, binding',
     author_email='info@ubicoders.com',
+    url='https://github.com/ubicoders/g2opy',  
     long_description=long_description,
     long_description_content_type='text/markdown',  # This is important for Markdown files
 )

@@ -17,10 +17,10 @@ This g2opy module is built based on
 ## Intellisense Enhanced
 
 
-![sample1](https://raw.githubusercontent.com/ubicoders0/g2opy/main/pics/intel0.png)
+![sample1](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel0.png)
 
 
-![sample2](https://raw.githubusercontent.com/ubicoders0/g2opy/main/pics/intel1.png)
+![sample2](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel1.png)
 
 
 ## License
