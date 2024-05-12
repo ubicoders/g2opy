@@ -35,13 +35,9 @@ MIT license. Currently, additional work is the build configuration on top of uoi
 
 ## Examples
 
-To run the examples, install numpy if applicable.
-
 ```
-pip install numpy
+python tester.py
 ```
-
-Bundle Adjustmend Example
 
 ```python
 import numpy as np
