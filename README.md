@@ -18,8 +18,7 @@ g2o with pybind is quite OS and Python version specific. Best method to have pip
 ## To install as pip package
 
 ```
-git clone https://github.com/ubicoders/g2opy
-cd g2opy
+git clone https://github.com/ubicoders/g2opy && cd g2opy
 bash install.bash
 ```
 
