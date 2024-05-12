@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/python-3.9-blue)
+
+
 # g2o Graph Optimization Lib for Ubuntu Linux
 
 If you are on Ubuntu and/or its docker contianer,
