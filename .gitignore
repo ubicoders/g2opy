@@ -5,3 +5,4 @@ pymodule_installer/dist
 pymodule_installer/dist/g2opy.egg-info
 pymodule_installer/dist/g2opy/*.so
 *.so
+eigen*
