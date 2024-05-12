@@ -277,44 +277,44 @@ SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${g2o_C_FLAGS}")
 FIND_PACKAGE(Eigen3 REQUIRED)
 
 #====================================================================================================================
-## CUSTOM PTYHON PATHS 
-set(PYVERSION 10)  # python 3.9
+# ## CUSTOM PTYHON PATHS 
+# set(PYVERSION 10)  # python 3.9
 
 
-# python 3.12
-set(PYBIND_INCLUDE_DIR_312 /miniconda/envs/p312/lib/python3.12/site-packages/pybind11/include)
-set(PYTHON_INCLUDE_DIR_312 /miniconda/envs/p312/include/python3.12)
+# # python 3.12
+# set(PYBIND_INCLUDE_DIR_312 /miniconda/envs/p312/lib/python3.12/site-packages/pybind11/include)
+# set(PYTHON_INCLUDE_DIR_312 /miniconda/envs/p312/include/python3.12)
 
-# python 3.11
-set(PYBIND_INCLUDE_DIR_311 /miniconda/envs/p311/lib/python3.11/site-packages/pybind11/include)
-set(PYTHON_INCLUDE_DIR_311 /miniconda/envs/p311/include/python3.11)
+# # python 3.11
+# set(PYBIND_INCLUDE_DIR_311 /miniconda/envs/p311/lib/python3.11/site-packages/pybind11/include)
+# set(PYTHON_INCLUDE_DIR_311 /miniconda/envs/p311/include/python3.11)
 
-# python 3.10
-set(PYBIND_INCLUDE_DIR_310 /miniconda/envs/p310/lib/python3.10/site-packages/pybind11/include)
-set(PYTHON_INCLUDE_DIR_310 /miniconda/envs/p310/include/python3.10)
+# # python 3.10
+# set(PYBIND_INCLUDE_DIR_310 /miniconda/envs/p310/lib/python3.10/site-packages/pybind11/include)
+# set(PYTHON_INCLUDE_DIR_310 /miniconda/envs/p310/include/python3.10)
 
-# python 3.9
-set(PYBIND_INCLUDE_DIR_39 /miniconda/lib/python3.9/site-packages/pybind11/include)
-set(PYTHON_INCLUDE_DIR_39 /miniconda/include/python3.9)
+# # python 3.9
+# set(PYBIND_INCLUDE_DIR_39 /miniconda/lib/python3.9/site-packages/pybind11/include)
+# set(PYTHON_INCLUDE_DIR_39 /miniconda/include/python3.9)
 
-if (PYVERSION EQUAL 12)
-  set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_312})
-  set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_312})
-elseif (PYVERSION EQUAL 11)
-  set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_311})
-  set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_311})
-elseif (PYVERSION EQUAL 10)
-  set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_310})
-  set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_310})
-elseif (PYVERSION EQUAL 9)
-  set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_39})
-  set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_39})
-else()
-  set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_39})
-  set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_39})
-endif()
+# if (PYVERSION EQUAL 12)
+#   set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_312})
+#   set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_312})
+# elseif (PYVERSION EQUAL 11)
+#   set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_311})
+#   set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_311})
+# elseif (PYVERSION EQUAL 10)
+#   set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_310})
+#   set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_310})
+# elseif (PYVERSION EQUAL 9)
+#   set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_39})
+#   set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_39})
+# else()
+#   set(PYBIND_INCLUDE_DIR ${PYBIND_INCLUDE_DIR_39})
+#   set(PYTHON_INCLUDE_DIR ${PYTHON_INCLUDE_DIR_39})
+# endif()
 
-INCLUDE_DIRECTORIES(${g2o_SOURCE_DIR} ${EIGEN3_INCLUDE_DIR} ${PYBIND_INCLUDE_DIR} ${PYTHON_INCLUDE_DIR})
+INCLUDE_DIRECTORIES(${g2o_SOURCE_DIR} ${EIGEN3_INCLUDE_DIR})
 #====================================================================================================================
 
 
