@@ -1,3 +1,7 @@
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/g2opy?style=flat)
+
+
 # g2o Graph Optimization Lib for Ubuntu Linux
 
 If you are on Ubuntu and/or its docker contianer,
