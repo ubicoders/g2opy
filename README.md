@@ -16,6 +16,8 @@ g2o with pybind is quite OS and Python version specific. For now, directly build
 ![sample2](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/intel1.png)
 
 
+![sample3](https://raw.githubusercontent.com/ubicoders/g2opy/main/pics/g2opy_pip.png)
+
 ## Assumptions
 1. Ubuntu Linux
 2. In Docker environment
