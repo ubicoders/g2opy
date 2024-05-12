@@ -24,7 +24,17 @@ g2o with pybind is quite OS and Python version specific. For now, directly build
 - Ubuntu 18.04, 20.04, 22.04
 - Python 3.9, 3.10
 
-## To install as pip package
+## Docker images
+https://hub.docker.com/repository/docker/ubicoders/g2opy/general
+```
+docker pull ubicoders/g2opy:u22_p310
+```
+```
+docker pull ubicoders/g2opy:ros2_humble
+```
+
+
+## To custom install as pip package 
 
 ```
 git clone https://github.com/ubicoders/g2opy && cd g2opy
