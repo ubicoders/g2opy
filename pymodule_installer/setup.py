@@ -19,5 +19,4 @@ setup(
     url='https://github.com/ubicoders/g2opy',  
     long_description=long_description,
     long_description_content_type='text/markdown',  # This is important for Markdown files
-    python_requires='==3.9',
 )
