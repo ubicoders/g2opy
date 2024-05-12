@@ -4,14 +4,17 @@
 
 # g2o Graph Optimization Lib for Ubuntu Linux
 
-If you are on Ubuntu and/or its docker contianer,
+g2o with pybind is quite OS and Python version specific. Best method to have pip on your system is to build on.
 
+## Assumptions
+1. Ubuntu Linux
+2. In Docker environment
+
+## To install as pip package
 
 ```
-pip install g2opy
+bash install.bash
 ```
-
-is all you need to get started.
 
 
 This g2opy module is built based on
