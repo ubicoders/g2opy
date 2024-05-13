@@ -75,6 +75,7 @@ Ideally, the above command should do all installation end-to-end. After this, g2
 This g2opy module is built based on
 1. https://github.com/uoip/g2opy
 2. https://github.com/RainerKuemmerle/g2o
+3. Eigen https://eigen.tuxfamily.org/index.php?title=Main_Page
 
 MIT license. Currently, additional work is the build configuration on top of uoip/g2opy.
 
