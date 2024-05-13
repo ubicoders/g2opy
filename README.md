@@ -37,6 +37,29 @@ docker pull ubicoders/g2opy:u22_p310
 docker pull ubicoders/g2opy:ros2_humble
 ```
 
+### Sample docker compose
+
+```
+version: "3.8"
+
+services:
+  g2o_ros2_humble:
+    container_name: ros2_g2opy_cnt
+    image: ubicoders/g2opy:ros2_humble
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1 
+    volumes:
+      - "/tmp/.X11-unix/:/tmp/.X11-unix/:rw"
+      - "$HOME/.Xauthority:/root/.Xauthority:rw"
+      - "/dev/:/dev/"
+
+
+```
 
 ## To custom install as pip package 
 
