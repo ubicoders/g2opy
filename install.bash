@@ -14,7 +14,7 @@ apt install software-properties-common -y
 add-apt-repository ppa:deadsnakes/ppa -y
 add-apt-repository universe -y
 
-pip install numpy
+pip install numpy==1.26.4
 
 # unzip and install eigen
 tar -xvjf eigen-eigen-5a0156e40feb.tar.bz2
