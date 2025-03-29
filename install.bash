@@ -40,4 +40,4 @@ pip install .
 
 cd ..
 echo "Running tester.py"
-python tester.py
+python3 tester.py
