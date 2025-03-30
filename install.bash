@@ -39,4 +39,6 @@ cd pymodule_installer/g2opy
 cp g2o.cpython-310-x86_64-linux-gnu.so /usr/local/lib/python3.10/dist-packages/g2o.cpython-310-x86_64-linux-gnu.so
 cd ..
 pip install .
+cd ..
 
+python tester.py
