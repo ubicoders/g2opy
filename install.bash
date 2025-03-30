@@ -34,4 +34,12 @@ cd ..
 
 
 # python setup.py install
-cp pymodule_installer/g2opy/g2o/g2o.cpython-310m-x86_64-linux-gnu.so /usr/local/lib/python3.10/dist-packages/g2o.cpython-310m-x86_64-linux-gnu.so
+cd pymodule_installer/g2opy/g2o
+cp g2o.cpython-310m-x86_64-linux-gnu.so /usr/local/lib/python3.10/dist-packages/g2o.cpython-310m-x86_64-linux-gnu.so
+
+
+
+
+
+
+
