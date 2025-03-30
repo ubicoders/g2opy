@@ -1,5 +1,5 @@
 import numpy as np
-from g2o import g2o
+import g2o
 np.set_printoptions(precision=3)
 np.set_printoptions(suppress=True)
 from collections import defaultdict
