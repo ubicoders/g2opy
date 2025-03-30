@@ -12,6 +12,7 @@ setup(
     # Include all relevant files in the g2o package
     package_data={
         'g2o': [
+            '*.so',
             'g2o/*.pyi'  # Files in the nested g2o/g2o directory
         ],
     },
