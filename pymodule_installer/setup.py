@@ -6,7 +6,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name='g2o',
-    version='0.0.9',
+    version='0.0.1',
     package_dir={'g2o': 'g2o'},  # Maps the 'g2o' package to the 'g2o' directory
     packages=['g2o'],  # Explicitly specify the package instead of relying on find_packages()
     include_package_data=True,  # Ensures non-Python files (e.g., .so, .a) are included
