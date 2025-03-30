@@ -7,7 +7,7 @@ If you are on Ubuntu and/or its docker contianer,
 
 
 ```
-pip install g2o
+pip install g2opy
 ```
 
 is all you need to get started.
