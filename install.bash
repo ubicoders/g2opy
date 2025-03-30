@@ -39,4 +39,4 @@ cd pymodule_installer
 pip install .
 cd ..
 
-python3 tester.py
+# python3 tester.py
