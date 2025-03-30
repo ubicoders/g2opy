@@ -41,4 +41,4 @@ cd ..
 pip install .
 cd ..
 
-python tester.py
+python3 tester.py
