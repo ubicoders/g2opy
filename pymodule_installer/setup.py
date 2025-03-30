@@ -12,9 +12,7 @@ setup(
     # Include all relevant files in the g2o package
     package_data={
         'g2o': [
-            '*.so',        # Shared object files
-            '*.pyi',       # Type hint files
-            '__init__.py'  # Ensure the __init__.py is included
+            'g2o/*.pyi'  # Files in the nested g2o/g2o directory
         ],
     },
     include_package_data=True,  # Ensures package_data is respected
