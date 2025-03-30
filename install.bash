@@ -34,7 +34,7 @@ cd ..
 
 
 # python setup.py install
-cp ./lib/g2o.* ./pymodule_installer/g2o
+cp ./lib/* ./pymodule_installer/g2o
 cd pymodule_installer
 pip install .
 cd ..
