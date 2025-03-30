@@ -31,13 +31,7 @@ cd build
 cmake ..
 make -j8
 cd ..
+
+
 # python setup.py install
-
-cp ./lib/g2o.* ./pymodule_installer/g2opy/
-
-cd ./pymodule_installer/
-pip install .
-
-cd ..
-echo "Running tester.py"
-python3 tester.py
+cp pymodule_installer/g2opy/g2o/g2o.cpython-310m-x86_64-linux-gnu.so /usr/local/lib/python3.10/dist-packages/g2o.cpython-310m-x86_64-linux-gnu.so
